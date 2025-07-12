@@ -1,8 +1,8 @@
-// LC1 - Two Sum
+// LC1 - TWO SUM
 import java.util.HashMap;
 
 
-class Solution {
+public class LC1 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i = 0; i<nums.length;i++){
